@@ -3,18 +3,9 @@
 Tools for the Sentinel Hub Python package developed by the EO research team at Sinergise.
 
 * Table of Contents                               :toc_2:noexport:
-- [[#development-environment][Development Environment]]
 - [[#tools-description][Tools description]]
   - [[#sentinelhub_automatic_downloadpy][sentinelhub_automatic_download.py]]
   
-  
-* Development Environment
-+ These tools have been developed using a conda virtual environment that can be identically recreated. To this end, create a new      
-  environment using [[./SICE_tools.yml]] as below:
-  #+BEGIN_SRC bash :results verbatim
-  conda env create -f sentinelhubpy.yml
-  #+END_SRC
-
 * Tools description
 ** sentinelhub_automatic_download.py
 + Automated data download and processing using the Sentinel Hub Python API.  
